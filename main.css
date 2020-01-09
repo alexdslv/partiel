@@ -1,18 +1,19 @@
-html {
-  background-color: #21212E;
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #353536;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-  background-color: #21212E;
+  background-color: #353536;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  margin-right: 15%;
-  margin-left: 15%;
+  padding: 2rem;
+  margin-right: 115px;
+  margin-left: 115px;
 }
-
-.logo {
+nav .logo {
   width: 50px;
   height: 50px;
 }
@@ -33,7 +34,7 @@ nav div ul li {
   list-style-type: none;
   justify-content: space-between;
   padding: 10px;
-  margin-right: 20px;
+  margin-right: 45px;
 }
 
 nav div ul li:hover {
@@ -41,7 +42,7 @@ nav div ul li:hover {
 }
 
 .contact {
-  width: 115px;
+  width: 140px;
   height: 50px;
   color: white;
 }
@@ -54,18 +55,180 @@ nav div ul li:hover {
   border-radius: 10%;
 }
 
+.triangle {
+  margin-left: 800px;
+  position: relative;
+}
+
+.rec {
+  display: flex;
+  margin-left: 120px;
+  margin-top: -250px;
+}
+
+.title {
+  color: white;
+  font-size: 70px;
+}
+
+.para {
+  color: rgba(255, 255, 255, 0.411);
+  font-size: 20px;
+  margin-top: -55px;
+}
+
+.showcase {
+  color: white;
+  margin-left: 55px;
+  margin-top: 220px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mockup {
+  margin-left: 35px;
+}
+
+.boutons {
+  width: 1000px;
+}
+
 .bouton {
-  background-color: #006eff;
+  background-image: linear-gradient(to right, #46C2FF, #BD11FA);
   border: none;
   color: white;
-  width: 10%;
-  height: 10%;
+  width: 290px;
+  height: 75px;
   padding: 15px;
-  border-radius: 45px;
-  font-size: 18px;
+  border-radius: 5px;
+  font-size: 25px;
+  position: relative;
+  margin-top: 70px;
+  margin-right: 90px;
+  box-shadow: 0 0 20px #f700ff;
 }
-.bouton:hover {
-  color: black;
+
+.bouton2 {
+  background-color: rgba(255, 255, 255, 0);
+  width: 250px;
+  height: 75px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 25px;
+  border-style: solid solid;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.apple {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 150%;
+  left: 20%;
+}
+
+.puma {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 149%;
+  left: 690px;
+}
+
+.inky {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 165%;
+  left: 390px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.microsoft {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 165%;
+  left: 65px;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.aws {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 145%;
+  left: 390px;
+}
+
+.disney {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 180%;
+  left: 6%;
+}
+
+.converse {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 182%;
+  left: 420px;
+}
+
+.nike {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+  top: 165%;
+  left: 770px;
 }
 
 /*# sourceMappingURL=main.css.map */
