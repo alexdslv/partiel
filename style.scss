@@ -121,11 +121,15 @@ nav div ul li:hover {
 
 }
 
+.partnersco{
+    display: flex;
+
+}
 
 .apple{
     @include marques();
-    top: 150%;
-    left: 20%;
+    top: 182%;
+    left: 730px;
 }
 
 
@@ -160,7 +164,7 @@ nav div ul li:hover {
 .disney{
     @include marques();
     top: 180%;
-    left: 6%;
+    left: 90px;
 }
 
 .converse{
@@ -173,4 +177,55 @@ nav div ul li:hover {
     @include marques();
     top: 165%;
     left: 770px;
+}
+
+
+.info{
+    width: 400px;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+h1{
+    font-size: 35px;
+    color: $white;
+}
+.infomore{
+    @include parag;
+    width: 500px;    
+}
+
+.rond{
+    width: 375px;
+    position: absolute;
+    margin-left: 1527px;
+    margin-top: 550px;
+    height: 650px;
+    overflow: hidden;
+}
+
+.carre{
+
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.308);
+    color: rgb(93, 255, 93);
+    height: 45px;
+    text-align: center;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.bouton3{
+        @include btn; 
+        margin-top: 2px;
+}
+
+.info2{
+    margin-left: 160px;
+    margin-top: 900px;
 }

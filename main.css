@@ -73,7 +73,8 @@ nav div ul li:hover {
 
 .para {
   color: rgba(255, 255, 255, 0.411);
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 30px;
   margin-top: -55px;
 }
 
@@ -130,6 +131,10 @@ nav div ul li:hover {
   position: relative;
 }
 
+.partnersco {
+  display: flex;
+}
+
 .apple {
   position: absolute;
   border-radius: 10px;
@@ -138,8 +143,8 @@ nav div ul li:hover {
   padding-left: 50px;
   padding-right: 50px;
   width: 150px;
-  top: 150%;
-  left: 20%;
+  top: 182%;
+  left: 730px;
 }
 
 .puma {
@@ -204,7 +209,7 @@ nav div ul li:hover {
   padding-right: 50px;
   width: 150px;
   top: 180%;
-  left: 6%;
+  left: 90px;
 }
 
 .converse {
@@ -229,6 +234,66 @@ nav div ul li:hover {
   width: 150px;
   top: 165%;
   left: 770px;
+}
+
+.info {
+  width: 400px;
+  margin-left: 800px;
+  margin-top: 300px;
+}
+
+h1 {
+  font-size: 35px;
+  color: white;
+}
+
+.infomore {
+  color: rgba(255, 255, 255, 0.411);
+  font-size: 16px;
+  line-height: 30px;
+  width: 500px;
+}
+
+.rond {
+  width: 375px;
+  position: absolute;
+  margin-left: 1527px;
+  margin-top: 550px;
+  height: 650px;
+  overflow: hidden;
+}
+
+.green {
+  background-color: rgba(0, 128, 0, 0.308);
+  color: #5dff5d;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -15px;
+}
+
+.bouton3 {
+  background-image: linear-gradient(to right, #46C2FF, #BD11FA);
+  border: none;
+  color: white;
+  width: 290px;
+  height: 75px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 25px;
+  position: relative;
+  margin-top: 70px;
+  margin-right: 90px;
+  box-shadow: 0 0 20px #f700ff;
+  margin-top: 2px;
+}
+
+.info2 {
+  margin-left: 160px;
+  margin-top: 900px;
 }
 
 /*# sourceMappingURL=main.css.map */
